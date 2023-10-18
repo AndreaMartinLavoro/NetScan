@@ -1,8 +1,9 @@
 
 # NetScan
-Applicazione che permette di scansionare una rete di interesse individuando i dispositivi attivi. Inoltre, permette di indicare una lista di porte che verrano verificate nei dispositivi attivi della rete.
+Application that allows you to scan a network of interest by identifying active devices. Furthermore, it allows you to indicate a list of ports that will be checked on active devices on the network.
+Application that allows you to scan a network of interest by identifying active devices. Furthermore, it allows you to indicate a list of ports that will be checked on active devices on the network.
 
-### Porte conosciute
+### Known ports
 | Porta | TCP | UDP | Nome | Descrizione |
 |-------|-----|-----|------|-------------|
 | 1     | ✔   | ✔   | tcpmux | TCP Port Multiplexer |
@@ -111,7 +112,7 @@ Applicazione che permette di scansionare una rete di interesse individuando i di
 | 993   | ✔   |     | imaps | IMAP tramite SSL/TLS |
 | 995   | ✔   |     | pop3s | POP3 tramite SSL/TLS |
 
-### Porte registrate
+### Registered ports
 | Porta  | TCP | UDP | Nome          | Descrizione                                          |
 |--------|-----|-----|---------------|------------------------------------------------------|
 | 1080   | ✔   |     | socks         | SOCKS Proxy                                          |
@@ -152,4 +153,4 @@ Applicazione che permette di scansionare una rete di interesse individuando i di
 | 33434  | ✔   | ✔   | traceroute    | Tracking di rete                                      |
 
 
-###### Le porte da 49152 in poi sono porte dinamiche. Queste non sono assegnate dalla IANA. Ogni applicazione può utilizzare tale porta localmente o dinamicamente a livello globale. Quindi può facilmente accadere che una di queste porte sia già occupata.
+###### Ports 49152 and above are dynamic ports. These are not assigned by IANA. Each application can use this port locally or dynamically globally. So it can easily happen that one of these ports is already occupied.
